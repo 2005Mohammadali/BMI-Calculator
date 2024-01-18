@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Raleway:ital,wght@1,500&family=Roboto:ital,wght@0,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background: linear-gradient(royalblue, rgb(104, 104, 243),rgb(70, 182, 182));
+}
+
+.card{
+    height: 425px;
+    width: 350px;
+    border-radius: 10px;
+    /* border: 2px solid black; */
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0.85rem 1rem;
+    background-color: #bcd9f3;
+}
+
+.card h1{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+input{
+    /* border-radius: 5rem; */
+    padding: 0.2rem 0.85rem;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 1px solid rgb(65, 65, 65);
+    height: 3em;
+    width: 100%;
+    margin: 0.55rem 0; 
+    font-family: 'Inter', sans-serif;
+}
+
+#weight{
+    margin-top: 2rem;
+}
+
+button{
+    border-radius: 5rem;
+    padding: 0.2rem;
+    font-size: 1.1rem;
+    border: none;
+    background-color: #282828;
+    color: azure;
+    height: 3em;
+    width: 100%;
+    margin: 1rem 0; 
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+}
+
+#bmi{
+    font-size: 3rem;
+    display: block;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.msg{
+    font-size: 1.5rem;
+    margin: 1rem 0.85rem;
+    text-align: center;
+    display: block;
+    font-family: 'Inter', sans-serif;
+}
